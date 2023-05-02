@@ -7,12 +7,13 @@ REM ####################################
 
 SET x=1920
 SET y=1080
+SET r=240
 
 REM ####################################
 REM      USING QRES TO CHANGE RES
 REM ####################################
 
-QRes.exe /x:%x% /y:%y%
+QRes.exe /x:%x% /y:%y% /r:%r%
 
 CLS
 ECHO  ________________________________
@@ -26,13 +27,14 @@ ECHO "                                "
 ECHO "   Screen Resolution Changer    "
 ECHO "________________________________"
 ECHO.
-ECHO       Script by @AlbertoMGV
+ECHO     Original Script by @AlbertoMGV
+ECHO Forked and slightly modified by @Jearnest94
 ECHO    Using QRES by Anders Kjersem
 ECHO  ________________________________
 ECHO.
-ECHO Changing Resolution to %x% x %y%...
+ECHO Changing Resolution to %x% x %y%... @ %r%Hz
 ECHO Done!!!
 ECHO.
 ECHO If you want another resolution edit the script!
 ECHO.
-timeout 10
+timeout 5
