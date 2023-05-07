@@ -1,5 +1,5 @@
 ## Information
-This is a fork of @AlbertoMGV script and repository "ScreenResolutionChanger"(https://github.com/AlbertoMGV/ScreenResolutionChanger ). I have added the option to edit refresh rate on top of resolution, as well as adding some default .bat files for res/freq settings that are common when playing Counter Strike: Global Offensive.
+This is a fork of @AlbertoMGV's script and repository "ScreenResolutionChanger"(https://github.com/AlbertoMGV/ScreenResolutionChanger ). I have added the option to edit refresh rate on top of resolution, as well as adding some default .bat files for res/freq settings that are common when playing Counter Strike: Global Offensive.
 ## Orignal README.md below:
 
 # ScreenResolutionChanger
